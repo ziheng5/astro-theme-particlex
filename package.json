@@ -1,0 +1,27 @@
+{
+  "name": "astro-theme-particlex",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An Astro blog theme inspired by hexo-theme-particlex.",
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 0.0.0.0",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 0.0.0.0"
+  },
+  "keywords": [
+    "astro",
+    "astro-theme",
+    "blog",
+    "template",
+    "particlex"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^5.0.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {}
+}
