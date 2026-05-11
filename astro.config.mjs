@@ -6,9 +6,12 @@ import rehypeKatex from "rehype-katex";
 
 import remarkMath from "remark-math";
 
+const site = process.env.ASTRO_SITE ?? "https://example.com";
+const base = process.env.ASTRO_BASE;
+
 export default defineConfig({
-  site: "https://ziheng5.github.io",
-  base: "/astro-theme-particlex",
+  site,
+  ...(base ? { base } : {}),
   integrations: [sitemap()],
   markdown: {
     remarkPlugins: [remarkMath],
