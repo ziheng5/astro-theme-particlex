@@ -5,7 +5,7 @@
 这个仓库可以直接作为一个 Astro 博客项目使用，也可以在 GitHub 上设置为 template repository，供新博客一键创建。
 
 - [Demo display](https://ziheng5.github.io/astro-theme-particlex/)
-- [Coldrain's examples](https://coldrain.top/)
+- [Coldrain's example](https://coldrain.top/)
 
 ## Features
 
