@@ -1,10 +1,14 @@
 import { defineConfig } from "astro/config";
+
 import sitemap from "@astrojs/sitemap";
+
 import rehypeKatex from "rehype-katex";
+
 import remarkMath from "remark-math";
 
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://ziheng5.github.io",
+  base: "/astro-theme-particlex",
   integrations: [sitemap()],
   markdown: {
     remarkPlugins: [remarkMath],
